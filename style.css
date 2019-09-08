@@ -395,8 +395,13 @@ header{
 	margin: 0 auto;
 }
 
+.contact-item-text{
+	text-decoration: underline;
+}
+
 .contact-item-icon{
 	float: left;
+	margin: 0 auto;
 }
 
 .contact-item-theme1,
@@ -411,9 +416,17 @@ header{
 	margin-top: 20px;
 }
 
+.contact-item-icon{
+	width: 400px;
+}
+
+.contact-item-item2{
+	margin: 0 auto;
+}
+
 .fab{
 	font-size: 50px;
-	padding-right: 8px;
+	padding-right: 20px;
 }
 
 .fab:nth-child(4){
@@ -934,6 +947,7 @@ footer{
 
 .fab{
 	font-size: 50px;
+	padding-right: 8px;
 	/* padding-right: 20px; */
 }
 
